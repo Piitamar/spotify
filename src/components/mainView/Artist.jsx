@@ -1,9 +1,11 @@
 
 
-export default function Main() {
+
+
+export default function Artist() {
     return (
         <section className='min-h-screen w-[60vw] bg-fuchsia-50'>
-            <h2>Main Content</h2>
+            <h2>Artist Content</h2>
         </section>
     )
 }
