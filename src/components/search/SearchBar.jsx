@@ -11,7 +11,7 @@ export default function SearchBar() {
                     <MdHomeFilled size={25}/>   
                 </button>
 
-                <div className="opacity-0 group-hover:opacity-100 absolute top-full left-1/2 -translate-x-1/2 mt-2 text-[0.85rem] bg-zinc-700 whitespace-nowrap px-3 py-1 rounded-sm">
+                <div className="opacity-0 transition-all duration-300 group-hover:opacity-100 absolute top-full left-1/2 -translate-x-1/2 mt-2 text-[0.85rem] bg-zinc-700 whitespace-nowrap px-3 py-1 rounded-sm">
                     Trang chủ 
                 </div>
             </div>

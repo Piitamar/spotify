@@ -21,13 +21,26 @@ export default function Search() {
             <div className="ml-5 font-bold opacity-70 text-[0.85rem] flex hover:scale-103 justify-center items-center">
                 <MdOutlineDownloadForOffline size={20}/>
                 <h2 className="p-2 text-white text-sm">
-                    Cài đặt ứng dụng</h2>
+                    Cài đặt ứng dụng
+                </h2>
             </div>
 
             <div className="flex items-center gap-3 ml-33">
-                <BsBell size={18} className="opacity-70"/>
-                <HiOutlineUserGroup size={20} className="opacity-70"/>
-                <div className="flex justify-center items-center w-12 h-12 bg-white/10 rounded-full">
+                <div className="relative group fit">
+                    <BsBell size={18} className="opacity-70 hover:scale-102 hover:opacity-100"/>
+                    <div className="opacity-0 group-hover:opacity-100 absolute top-full left-1/2 -translate-x-1/2 mt-2 text-[0.85rem] bg-zinc-700 whitespace-nowrap px-3 py-1 rounded-sm">
+                        Có gì mới 
+                    </div>
+                </div>
+                
+                <div className="relative group fit">
+                    <HiOutlineUserGroup size={20} className="opacity-70 hover:scale-102 hover:opacity-100"/>
+                    <div className="opacity-0 group-hover:opacity-100 absolute top-full left-1/2 -translate-x-1/2 mt-2 text-[0.85rem] bg-zinc-700 whitespace-nowrap px-3 py-1 rounded-sm">
+                        Hoạt động nghe 
+                    </div>
+                </div>
+                
+                <div className="flex justify-center hover:bg-white/17 transition-all duration-400 hover:scale-102 items-center w-12 h-12 bg-white/10 rounded-full">
                     <div className="flex font-bold text-sm justify-center items-center w-8 h-8 bg-orange-500 rounded-full">
                         2
                     </div>
