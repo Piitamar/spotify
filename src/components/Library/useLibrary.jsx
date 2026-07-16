@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export function useLibrary() {
+export default function useLibrary() {
     const [library, setLibrary] = useState([]);
 
     useEffect(() => {
