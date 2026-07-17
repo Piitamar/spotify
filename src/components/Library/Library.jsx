@@ -4,7 +4,7 @@ import TopicSlider from "../reuseComponents/TopicSlider";
 import { CiSearch } from "react-icons/ci";
 import { IoIosList } from "react-icons/io";
 import LibCard from "./libcard";
-import { useLibrary } from "./useLibrary";
+import useLibrary from "./useLibrary";
 
 export default function Library() {
     const topic = ['playlist', 'nghệ sĩ', 'bài hát', 'danh sách phát', 'album', 'video', 'podcast', 'thể loại', 'tác giả', 'thư viện'];

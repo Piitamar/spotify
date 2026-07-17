@@ -2,7 +2,6 @@ import HomeCard from "./HomeCard";
 import { useState } from "react";
 import useLibrary from "../Library/useLibrary";
 
-
 export default function HomeMain() {
     const topicList = ['Tất cả', 'Âm nhạc', 'Postcast'];
     const [topic, setTopic] = useState('Tất cả');
@@ -10,7 +9,7 @@ export default function HomeMain() {
     const library = useLibrary();
 
     return (
-        <section className="home-main min-h-screen w-[60vw] overflow-hidden rounded-tl-3xl rounded-tr-3xl bg-[#111111] px-10 py-5 text-white">
+        <section className="home-main min-h-screen w-[60vw] overflow-hidden rounded-sm bg-[#111111] px-10 py-5 text-white">
             <div className='flex gap-3 h-8 transition-transform duration-300 ease-in-out'>
                 {topicList.map((item, index) => (
                     <div key={index}
